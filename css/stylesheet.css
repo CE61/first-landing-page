@@ -93,7 +93,7 @@ body{
 .section-one-text{
     padding-right: 100px;
 }
-.section-one-text button{
+#button1{
     display: flex;
     align-items: center;
     justify-self: center;
@@ -217,7 +217,7 @@ body{
 .popup-subheader{
     margin: 0;
 }
-.popup button{
+#button2{
     align-items: center;
     justify-content: center;
     background-color: #3882F6;
