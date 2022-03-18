@@ -5,12 +5,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
-/*.body{                // Bad code. Don't worry about it.
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    align-items: center;
-}*/
 .block-one {
     display: flex;
     flex-grow: 1;
@@ -93,7 +87,7 @@ body{
 .section-one-text{
     padding-right: 100px;
 }
-#button1{
+.section-one-text button{
     display: flex;
     align-items: center;
     justify-self: center;
@@ -217,7 +211,7 @@ body{
 .popup-subheader{
     margin: 0;
 }
-#button2{
+.popup button{
     align-items: center;
     justify-content: center;
     background-color: #3882F6;
